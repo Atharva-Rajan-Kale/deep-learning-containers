@@ -385,7 +385,7 @@
       "title": "CVE-2024-43598 - lightgbm",
       "reason_to_ignore": "No fix provided"
     }
-  ]
+  ],
   "nltk": [
     {
       "description": "NLTK through 3.8.1 allows remote code execution if untrusted packages have pickled Python code, and the integrated data package download functionality is used. This affects, for example, averaged_perceptron_tagger and punkt.", 
@@ -416,7 +416,7 @@
       "title": "CVE-2024-39705 - nltk", 
       "reason_to_ignore": "N/A"
     }
-  ]
+  ],
   "tornado": [
     {
       "description": "Tornado is a Python web framework and asynchronous networking library. When Tornado's ``multipart/form-data`` parser encounters certain errors, it logs a warning but continues trying to parse the remainder of the data. This allows remote attackers to generate an extremely high volume of logs, constituting a DoS attack. This DoS is compounded by the fact that the logging subsystem is synchronous. All versions of Tornado prior to 6.5.0 are affected. The vulnerable parser is enabled by default. Upgrade to Tornado version 6.50 to receive a patch. As a workaround, risk can be mitigated by blocking `Content-Type: multipart/form-data` in a proxy.", 
